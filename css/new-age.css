@@ -185,6 +185,21 @@ header.masthead .device-container .screen img {
   border-radius: 3px;
 }
 
+header.masthead .typed h2 {
+  font-family: monospace;
+  display: inline;
+  padding: 20px;
+}
+
+@-webkit-keyframes blink {
+  50% { border-color: transparent; }
+}
+
+header.masthead .cursor {
+  animation: blink .5s step-end infinite alternate;
+  border-right: 1px solid white;
+}
+
 @media (min-width: 992px) {
   header.masthead {
     height: 100vh;
@@ -194,7 +209,7 @@ header.masthead .device-container .screen img {
   }
   header.masthead .header-content {
     margin-bottom: 0;
-    text-align: left;
+    text-align: center;
   }
   header.masthead .header-content h1 {
     font-size: 50px;
@@ -291,7 +306,7 @@ section.projects .feature-item i {
 section.cta {
   position: relative;
   padding: 250px 0;
-  background: url("../img/dark-typewriter.jpeg");
+  background: url("../img/drawshave.jpg");
   background-position: center;
   background-size: cover;
 }
