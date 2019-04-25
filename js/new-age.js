@@ -16,7 +16,7 @@
   });
 
   // Scroll to About section on keypress in Header
-  // $(document).on('keypress', function() {
+  // $(document).keypress(function() {
   //   console.log('key pressed')
   //   document.location = $('#about').attr('href');
   // });

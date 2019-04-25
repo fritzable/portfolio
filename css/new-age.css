@@ -255,6 +255,16 @@ section.about .badges .badge-link img {
   }
 }
 
+section.projects a {
+  color: #777;
+  -webkit-transition: all .35s;
+  transition: all .35s;
+}
+
+section.projects a:hover, a:focus {
+  color: #52e9a6;
+}
+
 section.projects .section-heading {
   margin-bottom: 100px;
 }
