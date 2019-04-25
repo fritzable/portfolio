@@ -265,6 +265,10 @@ section.projects a:hover, a:focus {
   color: #52e9a6;
 }
 
+svg {
+  padding: 8px;
+}
+
 section.projects .section-heading {
   margin-bottom: 100px;
 }

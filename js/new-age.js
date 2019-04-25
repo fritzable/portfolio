@@ -16,10 +16,11 @@
   });
 
   // Scroll to About section on keypress in Header
-  // $(document).keypress(function() {
-  //   console.log('key pressed')
-  //   document.location = $('#about').attr('href');
-  // });
+  // $('body').keypress(function(e) {
+  //   if(e.which == 13) {
+  //     console.log('key pressed')
+  //   }
+  // })
 
   // Closes responsive menu when a scroll trigger link is clicked
   $('.js-scroll-trigger').click(function() {
