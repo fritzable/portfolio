@@ -317,6 +317,10 @@ section.projects .feature-item i {
   -webkit-text-fill-color: transparent;
 }
 
+section.projects .feature-item i > a :hover :focus {
+  text-decoration: none;
+}
+
 section.cta {
   position: relative;
   padding: 250px 0;
