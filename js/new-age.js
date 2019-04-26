@@ -18,9 +18,10 @@
   // Scroll to About section on keypress in Header
   $(document).keypress(function(e) {
     if(e.which == 13) {
-      window.location.href = "#about"
-    }
-  })
+      //   window.location.href = "#about"
+      $('#about-link').trigger('click')
+  }
+})
 
   // Closes responsive menu when a scroll trigger link is clicked
   $('.js-scroll-trigger').click(function() {

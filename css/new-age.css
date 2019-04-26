@@ -255,14 +255,31 @@ section.about .badges .badge-link img {
   }
 }
 
-section.projects a {
-  color: #777;
+section.projects .link > a {
+  color: #7FEFBD;
   -webkit-transition: all .35s;
   transition: all .35s;
 }
 
-section.projects a:hover, a:focus {
+section.projects .link > a:hover, a:focus {
   color: #52e9a6;
+  -webkit-transition: all .35s;
+  transition: all .35s;
+}
+
+section.projects .feature-item i {
+  font-size: 80px;
+  display: block;
+  margin-bottom: 15px;
+  background: -webkit-gradient(linear, right top, left top, from(#7b4397), to(#CBA135));
+  background: linear-gradient(to left, #7b4397, #CBA135);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+section.projects .feature-item h3 {
+  text-decoration-color: none;
+  color: #333;
 }
 
 svg {
@@ -305,20 +322,6 @@ section.projects .feature-item {
 
 section.projects .feature-item h3 {
   font-size: 30px;
-}
-
-section.projects .feature-item i {
-  font-size: 80px;
-  display: block;
-  margin-bottom: 15px;
-  background: -webkit-gradient(linear, right top, left top, from(#7b4397), to(#CBA135));
-  background: linear-gradient(to left, #7b4397, #CBA135);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-section.projects .feature-item i > a :hover :focus {
-  text-decoration: none;
 }
 
 section.cta {
