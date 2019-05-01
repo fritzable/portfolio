@@ -186,9 +186,17 @@ header.masthead .device-container .screen img {
 }
 
 header.masthead .typed h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: monospace;
-  display: inline;
-  padding: 20px;
+}
+
+header.masthead .typed span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: monospace;
 }
 
 @-webkit-keyframes blink {
