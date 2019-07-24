@@ -490,13 +490,13 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
     box-shadow: 0 0 0 0px rgba(127, 239, 189, 0.4);
   }
   25% {
-    box-shadow: 0 0 0 10px rgba(127, 239, 189, 0);
+    box-shadow: 0 0 0 30px rgba(127, 239, 189, 0);
   }
   50% {
     box-shadow: 0 0 0 0px rgba(127, 239, 189, 0.4);
   }
   75% {
-    box-shadow: 0 0 0 10px rgba(127, 239, 189, 0);
+    box-shadow: 0 0 0 30px rgba(127, 239, 189, 0);
   }
   100% {
     box-shadow: 0 0 0 0px rgba(127, 239, 189, 0.4);
