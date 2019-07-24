@@ -17,7 +17,7 @@
 
   // Scroll to About section on keypress in Header
   $(document).keypress(function(e) {
-    const scrollPosition = $("body, html").scrollTop()
+    var scrollPosition = $("body, html").scrollTop()
     if (scrollPosition === 0) {
     if(e.which == 13) {
       $('#about-link').trigger('click')
